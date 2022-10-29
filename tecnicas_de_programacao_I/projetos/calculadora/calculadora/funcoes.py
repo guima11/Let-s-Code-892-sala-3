@@ -1,12 +1,21 @@
 def soma(a,b):
-    return a+b
+    calculo = a + b
+    return calculo
 
 def subtração(a,b):
-    return a-b
+    calculo = a - b
+    return calculo
 
 
 def divisao(a,b):
-    return a/b
+    if b != 0:
+        calculo = a/b
+    
+    elif b == 0:
+        print('Divisão inválida! Denominador igual a zero!')
+        calculo = 0
+    return calculo
 
 def multiplicao(a,b):
-    return a*b
+    calculo = a*b
+    return calculo
