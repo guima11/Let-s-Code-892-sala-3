@@ -16,6 +16,6 @@ def divisao(a,b):
         calculo = 0
     return calculo
 
-def multiplicao(a,b):
+def multiplicacao(a,b):
     calculo = a*b
     return calculo
